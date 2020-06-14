@@ -105,7 +105,7 @@ def train(hyp):
     del pg0, pg1, pg2
 
     # Load Model
-    google_utils.attempt_download(weights)
+#     google_utils.attempt_download(weights)
     start_epoch, best_fitness = 0, 0.0
     if weights.endswith('.pt'):  # pytorch format
         ckpt = torch.load(weights, map_location=device)  # load checkpoint
