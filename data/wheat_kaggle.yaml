@@ -8,8 +8,8 @@
 
 
 # train and val datasets (image directory or *.txt file with image paths)
-train: ../wheat_yolo_train_data/images/train/
-val: ../wheat_yolo_train_data/images/val/
+train: wheat_yolo_train_data/images/train/
+val: wheat_yolo_train_data/images/val/
 
 # number of classes
 nc: 1
